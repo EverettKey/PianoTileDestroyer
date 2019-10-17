@@ -78,7 +78,7 @@ def queryMousePosition():
     pt = POINT()
     windll.user32.GetCursorPos(byref(pt))
     return pt
-    # return { "x": pt.x, "y": pt.y}/
+    # return { "x": pt.x, "y": pt.y}
 
 
 
